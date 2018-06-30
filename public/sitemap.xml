@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://seblavoie.com/</loc>
+    <loc>hyle.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://seblavoie.com/categories/</loc>
+    <loc>hyle.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://seblavoie.com/tags/</loc>
+    <loc>hyle.io/tags/</loc>
     <priority>0</priority>
   </url>
   
