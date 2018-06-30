@@ -1,0 +1,5 @@
+{{ if eq .Site.Params.locale "fr"  }}
+{{ index .Site.Data.months .Date.Month }} {{ .Date.Year }}
+{{ else }}
+{{ .Date.Format "January 2006" }}
+{{ end }}

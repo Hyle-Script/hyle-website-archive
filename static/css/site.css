@@ -1,0 +1,176 @@
+body {
+  color: #5a5a5a;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header > .nav-pills.pull-right {
+  margin-top: -5px;
+}
+
+.header .logo {
+  text-decoration: none;
+}
+
+#home h3 {
+  font-weight: 300;
+}
+#home p {
+  font-size: 1.2em;
+}
+#home #introduction h2 {
+  text-align: center;
+}
+#home .jumbotron {
+  text-align: center;
+  background: #3a388d url("/images/pattern.png") repeat;
+  border-radius: 0;
+  padding: 100px 0;
+}
+#home .jumbotron h1 {
+  font-weight: 300;
+  font-size: 2.7em;
+  line-height: 1.2em;
+  color: #fff;
+}
+#home .jumbotron p {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  margin-top: 35px;
+}
+
+.fa-circle-o {
+  opacity: .5
+
+}
+
+#home .hyle-panel {
+  background: transparent url("/images/hyle_panel.png") left top no-repeat;
+  height: 360px;
+  width: 100%;
+}
+#home .hyle-panel pre {
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 150px 0 120px 40px;
+  font-size: 11px;
+}
+#home .hyle-panel .hyle-panel-controls {
+  margin-left: -75px;
+}
+#home .hyle-panel .hyle-panel-controls a i:first-child {
+  color: #eee;
+}
+@media (max-width: 1200px) {
+  #home .hyle-panel {
+    background-size: 100% !important;
+  }
+}
+#home .featurette h2 + p.lead {
+  margin-bottom: 60px;
+  font-size: 1.4em;
+}
+#home .featurette-image {
+  max-width: 630px;
+  width: 100%;
+}
+#home .icon-large {
+  margin: 0;
+  display: block;
+  font-size: 2em;
+}
+
+.featurette-divider {
+  margin: 80px 0;
+}
+.featurette-divider.featurette-divider-half {
+  margin-top: 0;
+}
+
+#home #call-to-action {
+  margin-top: 70px;
+}
+
+#home #uses h2:first-child {
+  margin-bottom: 60px;
+}
+
+#home #subscription h2:first-child {
+  margin: 15px 0;
+}
+#home #subscription form {
+  margin-top: 50px;
+}
+#home #subscription form input {
+  width: 30%;
+  margin-left: 32%;
+}
+
+@media (max-width: 768px) {
+  #home #subscription form input {
+    width: 80% !important;
+    margin-left: 7%;
+  }
+}
+#footer {
+  margin-bottom: 60px;
+}
+
+#docs .header {
+  padding-bottom: 15px;
+}
+#docs h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+#docs h2:first-child {
+  margin-top: 0;
+}
+#docs h3 {
+  margin: 45px 0 25px;
+}
+#docs h2 + h3 {
+  margin-top: 15px;
+}
+
+.sidebar-nav > p:not(:first-child) {
+  margin-top: 25px;
+}
+.sidebar-nav > ul {
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar-nav > ul > li {
+  margin: 4px 0;
+}
+.sidebar-nav > ul > li ul {
+  margin: 4px 0;
+  list-style: none;
+  padding-left: 12px;
+}
+
+#blog h1 {
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+#blog p {
+  font-size: 1.3em;
+}
+
+#login h3 {
+  margin-bottom: 30px;
+}
+#login .form-group:last-child {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.centered {
+  margin: auto;
+}
